@@ -1,7 +1,18 @@
 export default function Navbar() {
   return (
-    <nav style={{ padding: "20px 10%", background: "#111", color: "#fff" }}>
-      <h1>LegacyTech</h1>
+    <nav
+      className="card"
+      style={{
+        margin: 20,
+        display: 'flex',
+        justifyContent: 'space-between',
+        alignItems: 'center'
+      }}
+    >
+      <strong>AegisVPN</strong>
+      <div>
+        Home | Features | Pricing | Team | Contact
+      </div>
     </nav>
   );
 }

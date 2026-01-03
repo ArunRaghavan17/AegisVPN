@@ -1,8 +1,11 @@
 export default function Hero() {
   return (
-    <section style={{ textAlign: "center" }}>
-      <h1>Innovative Software Solutions</h1>
-      <p>Building modern, scalable and reliable technology</p>
+    <section>
+      <h1>Your Internet. Your Rules.</h1>
+      <p>
+        Secure, private, and unrestricted browsing using high-speed VPN servers
+        built for modern users.
+      </p>
     </section>
   );
 }
