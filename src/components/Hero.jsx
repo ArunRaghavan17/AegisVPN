@@ -11,7 +11,10 @@ export default function Hero() {
           AegisVPN provides encrypted, private, and unrestricted internet access
           using ultra-fast global VPN servers built for modern privacy needs.
         </p>
-        <button className="cta">Secure My Connection</button>
+        <a href="#pricing">
+          <button className="cta">Secure My Connection</button>
+        </a>
+
       </div>
     </section>
   );
